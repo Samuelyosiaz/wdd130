@@ -49,7 +49,7 @@ h1, h2 {
     color: var(--primary-color);
 }
 nav, p, section, article {
-    margin: 16px;
+    margin: 8px;
     padding: 8px;
 }
 .socialmedia a {
@@ -302,3 +302,186 @@ footer {
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
+
+.first-phrase {
+    all: unset;
+}
+.first-phrase {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-family: "Marrywather", serif;
+    font-weight: bold;
+    font-size: 5em;
+    padding-top: 10px;
+    top: 20%;
+}
+
+.primary {
+    width: 650px;
+    margin: 0 auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    display: grid;
+}
+
+form.primary fieldset{
+    display: grid;
+    grid-gap: 0rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: var(--accent-color2);
+}
+
+form.primary legend{
+    color: navy;
+    font-size: 2rem;
+    text-align: center;
+}
+
+form.primary label {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+form.primary input, select, textarea {
+    padding: 0rem;
+    font-size: 1.1rem;
+}
+
+button.subscribe {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 0;
+    justify-self: center;
+    width: auto;
+    cursor: pointer;
+}
+
+button.subscribe:hover {
+    background-color: var(--accent-color1);
+}
+
+.offerings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 20px;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 5px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+.offerings figure img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.offerings figcaption{
+    display: inline-block;
+    margin-top: 1em;
+    text-align: justify;
+    font-size: 20px;
+    overflow-wrap: break-word;         /* parte palabras largas */
+    white-space: normal; 
+}
+
+.offerings h2{
+    grid-column: 1/3;
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+}
+
+.action-button {
+    font-size: 25px;
+    grid-column: 1/3;
+    justify-content: center;
+    display: flex;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    justify-self: center;
+    margin-top: 7rem;
+}
+
+.action-button:hover {
+    background-color: var(--accent-color1);
+}
+
+#book-now {
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+}
+
+#book-now .action-button {
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+}
+
+.main-trips {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    grid-gap: 10px;
+}
+
+.main-trips h2 {
+    grid-column: 1 / -1;
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.main-trips img{
+    max-width: 400px;
+    object-fit: contain;
+    align-items: center;
+}
+
+p:not(footer p){
+    font-size: 20px;
+}
+
+.trips table {
+    width: 100%;
+    margin: 1rem 0;
+    background-color: #fff;
+}
+
+.trips-table th {
+    padding: 12px 8px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
